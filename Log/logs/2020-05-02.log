@@ -1,0 +1,19 @@
+2020-05-02 10:30:38,589 user_log.py---> <module> 26 DEBUG --->test12344
+2020-05-02 10:31:00,721 user_log.py---> <module> 26 DEBUG --->test12344
+2020-05-02 10:34:34,543 user_log.py---> <module> 28 DEBUG --->test12344
+2020-05-02 10:51:18,879 user_log.py---> <module> 38 DEBUG --->test
+2020-05-02 10:53:19,520 remote_connection.py---> _request 388 DEBUG --->POST http://127.0.0.1:58748/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-02 10:53:19,521 connectionpool.py---> _new_conn 221 DEBUG --->Starting new HTTP connection (1): 127.0.0.1:58748
+2020-05-02 10:53:24,054 connectionpool.py---> _make_request 428 DEBUG --->http://127.0.0.1:58748 "POST /session HTTP/1.1" 200 679
+2020-05-02 10:53:24,055 remote_connection.py---> _request 440 DEBUG --->Finished Request
+2020-05-02 10:53:24,055 remote_connection.py---> _request 388 DEBUG --->POST http://127.0.0.1:58748/session/ab63a923d2f4e5af0eda0a93729051ec/window/maximize {}
+2020-05-02 10:53:28,177 connectionpool.py---> _make_request 428 DEBUG --->http://127.0.0.1:58748 "POST /session/ab63a923d2f4e5af0eda0a93729051ec/window/maximize HTTP/1.1" 200 52
+2020-05-02 10:53:28,177 remote_connection.py---> _request 440 DEBUG --->Finished Request
+2020-05-02 10:53:28,177 remote_connection.py---> _request 388 DEBUG --->POST http://127.0.0.1:58748/session/ab63a923d2f4e5af0eda0a93729051ec/url {"url": "http://www.5itest.cn/register"}
+2020-05-02 10:53:43,589 connectionpool.py---> _make_request 428 DEBUG --->http://127.0.0.1:58748 "POST /session/ab63a923d2f4e5af0eda0a93729051ec/url HTTP/1.1" 200 14
+2020-05-02 10:53:43,589 remote_connection.py---> _request 440 DEBUG --->Finished Request
+2020-05-02 10:53:43,589 first_case.py---> setUp 30 DEBUG --->this is Chrome
+2020-05-02 11:23:48,834 first_case.py---> setUp 32 INFO --->this is Chrome
+2020-05-02 11:25:09,325 first_case.py---> setUp 32 INFO --->this is Chrome
+2020-05-02 11:25:39,907 first_case.py---> setUp 32 INFO --->this is Chrome
+2020-05-02 11:26:09,023 first_case.py---> setUp 32 INFO --->this is Chrome
